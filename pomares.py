@@ -1,6 +1,7 @@
-#!/usr/bin/env python3.4
+#!/usr/bin/env python3
+
 import click
-from nectar import server, cli
+from nectar import cli
 
 
 @click.group()
@@ -116,4 +117,3 @@ def about():
 
 if __name__ == '__main__':
     pomares()
-
